@@ -6,7 +6,7 @@ from datetime import datetime
 
 # CHANGE REQUIRED: Add your OpenRouteService API key here
 # You can get a free API key from https://openrouteservice.org/
-ORS_API_KEY = "eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6ImVkYjc1ZGU4MzgxNDQxMmE5MDc2NDRmZDE1N2ZhYzhjIiwiaCI6Im11cm11cjY0In0="
+ORS_API_KEY = "eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6ImM0ODUzMzhjMTBiMjQ3Nzk5MTU0NzdlZjEyMWQ1ZGFkIiwiaCI6Im11cm11cjY0In0="
 
 # Initialize OpenRouteService client
 client = openrouteservice.Client(key=ORS_API_KEY)
