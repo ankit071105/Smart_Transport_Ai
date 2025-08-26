@@ -1,0 +1,126 @@
+/* Main styles */
+.main {
+    background-color: #f8f9fa;
+}
+
+/* Header styles */
+header {
+    background-color: #0d6efd;
+    color: white;
+}
+
+/* Description text */
+.description {
+    color: #6c757d;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+/* Button styles */
+.stButton button {
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.stButton button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Primary button */
+.stButton button:first-child {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+/* Secondary button */
+.stButton button:last-child {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+/* Metric cards */
+.css-1fv8s86 e16fv1kl2 {
+    background-color: white;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+/* Sidebar styles */
+.css-1d391kg {
+    background-color: #f8f9fa;
+}
+
+/* Input fields */
+.stTextInput input {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+}
+
+.stTextInput input:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+/* Select boxes */
+.stSelectbox select {
+    border-radius: 8px;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 8px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background-color: #f8f9fa;
+    border-radius: 8px 8px 0 0;
+    padding: 10px 16px;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #0d6efd;
+    color: white;
+}
+
+/* Map container */
+folium-map {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+/* Alert boxes */
+.stAlert {
+    border-radius: 8px;
+}
+
+/* Dataframe styling */
+.dataframe {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+/* Expander styling */
+.streamlit-expanderHeader {
+    font-weight: 600;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+}
+
+/* Progress bar */
+.stProgress > div > div {
+    background-color: #0d6efd;
+}
+
+/* Custom card style */
+.card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    margin-bottom: 1rem;
+}

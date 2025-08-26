@@ -1,0 +1,15 @@
+streamlit
+torch
+numpy
+pandas
+requests
+openrouteservice
+folium
+streamlit-folium
+gtts
+playsound
+datetime
+geopy
+plotly
+streamlit-option-menu
+pygame
